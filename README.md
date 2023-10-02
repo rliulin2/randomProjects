@@ -1,2 +1,2 @@
 # randomProjects
-Random Python projects
+Random Python projects that I wrote for fun
