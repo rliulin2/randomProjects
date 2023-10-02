@@ -9,8 +9,8 @@ subprocess.run(f"rm -rf '{archivePath}'", shell = True)
 subprocess.run(f"mkdir -p '{archivePath}'", shell = True)
 subprocess.run(f"imessage-exporter --export-path '{archivePath}' -f html -c compatible", shell = True)
 
-contactsPath1 = "/Users/ryder/Library/Application Support/AddressBook/Sources/339586BA-F4F9-4626-83FD-199F8D24E8E8/AddressBook-v22.abcddb"
-contactsPath2 = "/Users/ryder/Library/Application Support/AddressBook/Sources/FC9D18F9-3669-4B22-9362-16C015471A47/AddressBook-v22.abcddb" # apparently some can be duplicated across databases??? why
+contactsPath1 = "/Users/ryder/Library/Application Support/AddressBook/Sources/[REDACTED]/AddressBook-v22.abcddb"
+contactsPath2 = "/Users/ryder/Library/Application Support/AddressBook/Sources/[REDACTED]/AddressBook-v22.abcddb" # apparently some can be duplicated across databases??? why
 nameRegex = r"\b(.+)(?=.*\1\s)" #r"\b([a-zA-Z0-9_ &'/\(\)-]+)\b(?=.*\s\1\s)"
 fullAMERNumRegex = r"1[0-9]{10}"
 noCountryCodeAMERRegex = r"[^1\s][0-9]{9}\s"
